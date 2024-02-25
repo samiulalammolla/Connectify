@@ -1,0 +1,26 @@
+{
+  "name": "connectify",
+  "version": "1.0.0",
+  "description": "Connectify is a Progressive Web Application (PWA) designed for learning and testing purposes. It comprises a client-side frontend developed with React and Tailwind CSS, and a backend API built with Express, Node.js, and MongoDB for the database.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajeshVerma1612/Connectify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajeshVerma1612/Connectify/issues"
+  },
+  "homepage": "https://github.com/RajeshVerma1612/Connectify#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.1.0"
+  }
+}

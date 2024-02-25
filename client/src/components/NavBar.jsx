@@ -6,7 +6,7 @@ function NavBar() {
     <header className='bg-slate-200 shadow-md'>
       <div className='flex justify-between items-center p-4 max-w-6xl mx-auto'>
         <Link to='/'>
-        <h1 className='font-bold text-md sm:text-xl italic'>Connetify</h1>
+        <h1 className='font-bold text-md sm:text-xl italic'>Connectify</h1>
         </Link>
         <form className='bg-slate-100  rounded-md flex justify-between items-center px-2'>
           <input type="text" placeholder='Search...' className='bg-transparent focus:outline-none w-32 sm:w-64 p-1 ' />

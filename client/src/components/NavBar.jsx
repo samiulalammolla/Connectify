@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import {FaSearch} from 'react-icons/fa'
 function NavBar() {
   return (
     <header className='bg-slate-200 shadow-md'>
@@ -7,8 +8,9 @@ function NavBar() {
         <Link to='/'>
         <h1 className='font-bold text-md sm:text-xl italic'>Connetify</h1>
         </Link>
-        <form className='bg-slate-100  rounded-md '>
+        <form className='bg-slate-100  rounded-md flex justify-between items-center px-2'>
           <input type="text" placeholder='Search...' className='bg-transparent focus:outline-none w-32 sm:w-64 p-1 ' />
+          <FaSearch className='text-slate-700'/>
         </form>
         <ul className='flex gap-4 font-semibold text-slate-700 justify-center items-center'>
           <Link to='/'>
